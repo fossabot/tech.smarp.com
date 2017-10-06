@@ -1,9 +1,24 @@
 {
-  "name": "gatsby-starter",
-  "version": "1.0.0",
-  "description": "Gatsby 1.0 starter",
-  "author": "fabien0102 <fabien0102@gmail.com>",
-  "license": "MIT",
+  "name": "tech.smarp.com",
+  "version": "0.0.1",
+  "description": "Tech blog of Smarp: Be Nerds – Do Magic – Share Spells",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongsinh/tech.smarp.com.git"
+  },
+  "keywords": [
+    "tech",
+    "blog",
+    "magic",
+    "spells"
+  ],
+  "author": "TruongSinh Tran-Nguyen <i@truongsinh.pro>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truongsinh/tech.smarp.com/issues"
+  },
+  "homepage": "https://github.com/truongsinh/tech.smarp.com#readme",
   "scripts": {
     "start": "gatsby develop",
     "develop": "gatsby develop",
@@ -101,10 +116,6 @@
     "ts-lint": "4.5.1",
     "xo": "^0.18.1"
   },
-  "keywords": [
-    "gatsby",
-    "starter"
-  ],
   "jest": {
     "globals": {
       "__LINK_PREFIX__": "",
