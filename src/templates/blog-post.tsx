@@ -31,7 +31,7 @@ export default (props: BlogPostProps) => {
             />
             <Comment.Content>
               <Comment.Author style={{ fontWeight: 400 }}>
-                {frontmatter.author.name}
+                {node.frontmatter.author.name}
               </Comment.Author>
               <Comment.Metadata style={{ margin: 0 }}>
                 {timeToRead} min read

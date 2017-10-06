@@ -1,5 +1,13 @@
 [
   {
+    "id": "thanh",
+    "name": "Thanh Nguyen",
+    "bio": "Senior engineer @ Smarp.",
+    "avatar": "avatars/alien-male-icon.png",
+    "twitter": "@fabien0102",
+    "github": "@fabien0102"
+  },
+  {
     "id": "truongsinh",
     "name": "TruongSinh Tran-Nguyen",
     "bio": "JavaScript Developer with ♥ #Craftman #Lean #JS #FRP. Member at @GatsbyJS.",
