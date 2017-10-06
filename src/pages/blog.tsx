@@ -45,7 +45,7 @@ export default (props: BlogProps) => {
                   {frontmatter.author.name}
                 </Comment.Author>
                 <Comment.Metadata style={{ margin: 0 }}>
-                  {frontmatter.updatedDate} - {timeToRead} min read
+                  {frontmatter.createdDate} - {timeToRead} min read
               </Comment.Metadata>
               </Comment.Content>
             </Comment>
@@ -111,7 +111,7 @@ query PageBlog {
 
   # Get posts
   posts: allMarkdownRemark(
-    sort: { order: DESC, fields: [frontmatter___updatedDate] },
+    sort: { order: DESC, fields: [frontmatter___createdDate] },
     filter: {
       frontmatter: { draft: { ne: true } },
       fileAbsolutePath: { regex: "/blog/" }
@@ -128,7 +128,7 @@ query PageBlog {
         }
         frontmatter {
           title
-          updatedDate(formatString: "DD MMMM, YYYY")
+          createdDate(formatString: "DD MMMM, YYYY")
           image {
           	children {
               ... on ImageSharp {

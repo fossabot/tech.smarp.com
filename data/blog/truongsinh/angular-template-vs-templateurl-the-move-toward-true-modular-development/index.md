@@ -1,6 +1,6 @@
 ---
 title: 'Angular: template vs templateUrl; the move toward true modular development'
-createdDate: '2017-06-05'
+createdDate: '2015-06-05'
 updatedDate: '2017-10-06'
 author: truongsinh
 tags:

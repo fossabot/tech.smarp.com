@@ -70,7 +70,7 @@ export default (props: BlogPostProps) => {
             <Item.Content>
               <Item.Description>{frontmatter.author.name}</Item.Description>
               <Item.Meta>{frontmatter.author.bio}</Item.Meta>
-              <Item.Extra>{frontmatter.updatedDate} - {timeToRead} min read</Item.Extra>
+              <Item.Extra>{frontmatter.createdDate} - {timeToRead} min read</Item.Extra>
             </Item.Content>
           </Item>
         </Item.Group>
@@ -127,7 +127,7 @@ export const pageQuery = graphql`
         }
       }
       title
-      updatedDate(formatString: "MMM D, YYYY")
+      createdDate(formatString: "MMM D, YYYY")
       image {
         children {
           ... on ImageSharp {
@@ -146,7 +146,7 @@ export const pageQuery = graphql`
       frontmatter: {draft: {ne: true}},
       fileAbsolutePath: {regex: "/blog/"},
     },
-    sort: {order: DESC, fields: [frontmatter___updatedDate]},
+    sort: {order: DESC, fields: [frontmatter___createdDate]},
     limit: 4
   ) {
     edges {
