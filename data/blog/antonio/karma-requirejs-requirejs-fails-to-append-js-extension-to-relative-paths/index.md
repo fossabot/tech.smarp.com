@@ -4,7 +4,10 @@ createdDate: '2015-10-23'
 updatedDate: '2017-10-06'
 author: antonio
 tags:
-  - frontend
+  - cocoapods
+  - gradle
+  - mobile
+  - nativescript
 image: pexels-photo-59628.jpeg
 draft: false
 ---

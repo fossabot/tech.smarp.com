@@ -4,8 +4,14 @@ createdDate: '2017-06-05'
 updatedDate: '2017-10-06'
 author: truongsinh
 tags:
-  - starter
-  - gatsby
+  - typescript
+  - javascript
+  - templateurl
+  - controller
+  - directive
+  - frontend
+  - angular
+  - angularjs
 image: pexels-photo-253092.jpeg
 draft: false
 ---

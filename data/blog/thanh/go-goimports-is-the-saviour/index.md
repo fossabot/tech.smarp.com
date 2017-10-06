@@ -5,6 +5,9 @@ updatedDate: '2017-10-06'
 author: thanh
 tags:
   - go
+  - golang
+  - goimports
+  - tools
 image: placeholder.jpeg
 draft: false
 ---

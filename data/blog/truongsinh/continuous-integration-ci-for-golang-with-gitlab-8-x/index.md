@@ -4,8 +4,11 @@ createdDate: '2015-10-09'
 updatedDate: '2017-10-06'
 author: truongsinh
 tags:
-  - starter
-  - gatsby
+  - go
+  - golang
+  - gitlab
+  - ci
+  - continous integration
 image: pexels-photo-253092.jpeg
 draft: false
 ---

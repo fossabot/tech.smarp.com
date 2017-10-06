@@ -7,6 +7,10 @@ updatedDate: '2017-10-06'
 author: igor
 tags:
   - frontend
+  - javascript
+  - karma
+  - requirejs
+  - unit-test
 image: pexels-photo-59628.jpeg
 draft: false
 ---

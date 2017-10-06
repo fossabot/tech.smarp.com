@@ -4,7 +4,12 @@ createdDate: '2015-06-15'
 updatedDate: '2017-10-06'
 author: minh
 tags:
-  - test
+  - ie8
+  - internet explorer
+  - javascript
+  - angular
+  - angularjs
+  - frontend
 image: cup-of-coffee-laptop-office-macbook-89786.jpeg
 draft: false
 ---
