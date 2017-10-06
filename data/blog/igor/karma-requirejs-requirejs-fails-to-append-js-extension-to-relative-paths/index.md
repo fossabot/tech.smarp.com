@@ -11,7 +11,7 @@ image: pexels-photo-59628.jpeg
 draft: false
 ---
 
-_**Update:** Karma version [v0.12.37](https://web.archive.org/web/20151025165045/https://github.com/karma-runner/karma/blob/v0.12.37/CHANGELOG.md) includes this fix. But still this article can be helpful for those who are using old versions of Karma._
+_**Update:** Karma version [v0.12.37](https://github.com/karma-runner/karma/blob/v0.12.37/CHANGELOG.md) includes this fix. But still this article can be helpful for those who are using old versions of Karma._
 
 There is a great guide on Karma official website about how to make Karma + RequireJS setup. Generated code will work perfectly until you start to reference your scripts with relative paths (like `./path/to/file`). For instance, if you want to require files from the same directory as the spec files. Let’s give a closer look why it occurs and how to fix it.
 
@@ -23,7 +23,7 @@ We’ll simply replace `app` with `../src/app`
 
 After making this modification, we’ll start getting following error `'There is no timestamp for /base/src/app!'` on a test run. Although the path to the script is valid, we’re missing `.js` extension. That’s why RequireJS throws an error.
 
-Digging into RequireJS docs [http://requirejs.org/docs/api.html#jsfiles](https://web.archive.org/web/20151025165045/http://requirejs.org/docs/api.html#jsfiles) we can find an interesting information:
+Digging into RequireJS docs <http://requirejs.org/docs/api.html#jsfiles> we can find an interesting information:
 
 > There may be times when you do want to reference a script directly and not conform to the “baseUrl + paths” rules for finding it. If a module ID has one of the following characteristics, the ID will not be passed through the “baseUrl + paths” configuration, and just be treated like a regular URL that is relative to the document:  
 > – Ends in “.js”.  
