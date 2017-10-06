@@ -4,15 +4,23 @@
     "name": "Thanh Nguyen",
     "bio": "Senior engineer @ Smarp.",
     "avatar": "avatars/alien-male-icon.png",
-    "twitter": "@fabien0102",
-    "github": "@fabien0102"
+    "twitter": "",
+    "github": ""
+  },
+  {
+    "id": "igor",
+    "name": "Igor Vileikis",
+    "bio": "UX Magician @ Smarp.",
+    "avatar": "avatars/alien-male-icon.png",
+    "twitter": "",
+    "github": ""
   },
   {
     "id": "truongsinh",
     "name": "TruongSinh Tran-Nguyen",
-    "bio": "JavaScript Developer with ♥ #Craftman #Lean #JS #FRP. Member at @GatsbyJS.",
-    "avatar": "avatars/fabien0102.jpg",
-    "twitter": "@fabien0102",
-    "github": "@fabien0102"
+    "bio": "Head of Tech @ Smarp.",
+    "avatar": "avatars/alien-male-icon.png",
+    "twitter": "",
+    "github": ""
   }
 ]

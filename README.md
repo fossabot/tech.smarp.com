@@ -6,3 +6,4 @@ Tech blog of Smarp: Be Nerds – Do Magic – Share Spells
 
 -   Authors' bio
 -   page thumbnail
+-   tags
