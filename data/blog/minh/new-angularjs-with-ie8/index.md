@@ -1,7 +1,7 @@
 ---
 title: New AngularJS with IE8
 createdDate: '2015-06-15'
-updatedDate: '2017-10-06'
+updatedDate: '2017-10-07'
 author: minh
 tags:
   - ie8
@@ -10,7 +10,7 @@ tags:
   - angular
   - angularjs
   - frontend
-image: cup-of-coffee-laptop-office-macbook-89786.jpeg
+image: ilya-pavlov-87438.jpg
 draft: false
 ---
 

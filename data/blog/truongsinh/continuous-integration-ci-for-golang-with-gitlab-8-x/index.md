@@ -1,7 +1,7 @@
 ---
 title: Continuous Integration (CI) for Golang with Gitlab 8.x
 createdDate: '2015-10-09'
-updatedDate: '2017-10-06'
+updatedDate: '2017-10-07'
 author: truongsinh
 tags:
   - go
@@ -9,7 +9,7 @@ tags:
   - gitlab
   - ci
   - continous integration
-image: pexels-photo-253092.jpeg
+image: carlos-muza-84523.jpg
 draft: false
 ---
 

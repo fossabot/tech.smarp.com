@@ -1,7 +1,7 @@
 ---
 title: 'Angular: template vs templateUrl; the move toward true modular development'
 createdDate: '2015-06-05'
-updatedDate: '2017-10-06'
+updatedDate: '2017-10-07'
 author: truongsinh
 tags:
   - typescript
@@ -12,7 +12,7 @@ tags:
   - frontend
   - angular
   - angularjs
-image: pexels-photo-253092.jpeg
+image: markus-spiske-221494.jpg
 draft: false
 ---
 
@@ -48,7 +48,7 @@ Here’s the part using `templateUrl`:
 </div>
 ```
 
-```ts
+```typescript
 // ./path/my-component-name.ts
 angular
 .module("myComponentName")
@@ -64,7 +64,7 @@ angular
 
 Ok, so we just move `./path/to/my.html` to `./path/my-component-name.html`, and change `./path/my-component-name.ts` to:
 
-```ts
+```typescript
 // ./path/my-component-name.ts
 import tpl from './my-component-name.html';
 angular
@@ -110,7 +110,7 @@ In line #3, we get every HTML to pre-process (don’t worry, we just pre-process
 </div>
 ```
 
-```ts
+```typescript
 // ./path/my-component-name.html.ts
 var t ="<div>\n  \"SmarpShare\"\n <span>is</span>\n awesome, dud'\n</div>\n";
 export default t;

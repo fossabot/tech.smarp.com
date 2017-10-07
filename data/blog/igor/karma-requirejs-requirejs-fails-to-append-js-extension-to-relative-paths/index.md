@@ -3,7 +3,7 @@ title: >-
   Karma + RequireJS: RequireJS fails to append ‘.js’ extension to relative
   paths.
 createdDate: '2015-06-20'
-updatedDate: '2017-10-06'
+updatedDate: '2017-10-07'
 author: igor
 tags:
   - frontend
@@ -11,7 +11,7 @@ tags:
   - karma
   - requirejs
   - unit-test
-image: pexels-photo-59628.jpeg
+image: artem-sapegin-180146.jpg
 draft: false
 ---
 
