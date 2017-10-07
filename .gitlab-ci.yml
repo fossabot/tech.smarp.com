@@ -1,0 +1,20 @@
+image: node:8
+
+cache:
+  paths:
+  - .cache/
+  - node_modules/
+
+before_script:
+  - npm install
+
+pages:
+  stage: deploy
+  script:
+  - npm run build
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+  - dev2

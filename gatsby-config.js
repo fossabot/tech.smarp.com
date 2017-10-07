@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My website`
+    title: `Smarp Tech Blog`
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
