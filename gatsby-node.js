@@ -17,7 +17,7 @@ exports.onCreateNode = ({node, boundActionCreators, getNode}) => {
   switch (node.internal.type) {
     case `MarkdownRemark`:
       const fileNode = getNode(node.parent);
-      slug = fileNode.relativePath.split('/').slice(0, -1).join('/');
+      slug = fileNode.relativePath.split('/').slice(1, -1).join('/');
       break;
   }
   if (slug) {
@@ -64,7 +64,9 @@ exports.createPages = ({graphql, boundActionCreators}) => {
 
       // Create blog pages
       posts
+        /*
         .filter(post => post.fields.slug.startsWith('blog/'))
+        */
         .forEach(post => {
           createPage({
             path: post.fields.slug,
@@ -82,7 +84,7 @@ exports.createPages = ({graphql, boundActionCreators}) => {
         , [])
         .forEach(tag => {
           createPage({
-            path: `/blog/tags/${kebabCase(tag)}/`,
+            path: `/tags/${kebabCase(tag)}/`,
             component: slash(templates.tagsPage),
             context: {
               tag
@@ -94,7 +96,7 @@ exports.createPages = ({graphql, boundActionCreators}) => {
       const pageCount = Math.ceil(posts.length / POSTS_PER_PAGE);
       times(pageCount, index => {
         createPage({
-          path: `/blog/page/${index + 1}/`,
+          path: `/page/${index + 1}/`,
           component: slash(templates.blogPage),
           context: {
             skip: index * POSTS_PER_PAGE

@@ -16,7 +16,7 @@ storiesOf("BlogPagination", module)
   .addDecorator(withKnobs)
   .add("default", () => {
     const activePage = number("activePage", 1);
-    const pathname = `/blog/page/${activePage}/`;
+    const pathname = `/page/${activePage}/`;
     const pageCount = number("pageCount", 10);
 
     return (
