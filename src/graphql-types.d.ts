@@ -1306,6 +1306,8 @@ export interface frontmatter_2 {
   title: string | null;
   createdDate: string | null;
   updatedDate: string | null;
+  canonical?: string;
+  excerpt?: string;
   author: AuthorJson | null;
   tags: Array<string> | null;
   image: File | null;

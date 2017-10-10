@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 import { Header, Container, Segment, Icon, Label, Button, Grid, Card, Image, Item, Comment } from "semantic-ui-react";
 import { MarkdownRemark, ImageSharp, MarkdownRemarkConnection } from "../graphql-types";
 import BlogTitle from "../components/BlogTitle";
+import { Seo } from "../components/Seo/Seo";
 
 interface BlogPostProps {
   data: {
@@ -56,9 +57,10 @@ export default (props: BlogPostProps) => {
       );
     });
 
-  const recentCover = frontmatter.image.children[0] as ImageSharp;
+  const thisCover = frontmatter.image.children[0] as ImageSharp;
   return (
     <Container>
+      <Seo postNode={props.data.post} postSEO />
       <BlogTitle />
       <Segment vertical style={{ border: "none" }}>
         <Item.Group>
@@ -77,8 +79,8 @@ export default (props: BlogPostProps) => {
         <Header as="h1">{frontmatter.title}</Header>
       </Segment>
         <Image
-          src={recentCover.responsiveResolution.src}
-          srcSet={recentCover.responsiveResolution.srcSet}
+          src={thisCover.responsiveResolution.src}
+          srcSet={thisCover.responsiveResolution.srcSet}
           fluid
         />
       <Segment vertical
@@ -126,7 +128,9 @@ export const pageQuery = graphql`
         }
       }
       title
-      updatedDate(formatString: "MMM D, YYYY")
+      createdDate(formatString: "MMM D, YYYY")
+      canonical
+      excerpt
       image {
         children {
           ... on ImageSharp {

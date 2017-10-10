@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `My website`
+    title: `My website`,
+    siteUrl: 'https://www.example.com',
+    pathPrefix: '/'
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
