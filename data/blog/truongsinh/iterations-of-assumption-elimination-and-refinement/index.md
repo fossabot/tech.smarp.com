@@ -3,7 +3,7 @@ title: >-
   We need more information… or do we? Iterations of assumption, elimination and
   refinement
 createdDate: '2017-10-09'
-updatedDate: '2017-10-09'
+updatedDate: '2017-10-10'
 author: truongsinh
 tags:
   - leadership
@@ -12,6 +12,12 @@ image: helloquence-61189.jpg
 draft: false
 canonical: >-
   https://www.linkedin.com/pulse/we-need-more-information-do-iterations-assumption-tran-nguyen/
+excerpt: >-
+  practicing assumption (list all/most probable outcomes of pending questions),
+  elimination (remove all irrelevant questions) and refinement (add more
+  relevant questions) in iterations (repeatedly until there are nothing else to
+  change) would save you a lot of time gathering information and making
+  decisions.
 ---
 
 A while ago, I wrote an article titled [Stop saying, "it depends"; make your answers useful](https://www.linkedin.com/pulse/stop-saying-depends-make-your-answers-useful-truongsinh-tran-nguyen/). This one can be considered its sequel.
